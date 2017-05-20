@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+a {
+	color: seashell;
+}
+
+header {
+	background-color: black;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	border-bottom: 1px solid seashell;
+	height: 69px;
+	width: 100%;
+}
+
+.logo {
+	display: flex;
+	flex-grow: 1;
+}
+
+.logo img {
+	padding-left: 10px;
+	height: 50px;
+}
+
+.content {
+  display: flex;
+  padding-top: 69px;
+  justify-content: center;
+}
+
+.hero {
+	background-image: url('./resources/images/background.jpg');
+	height: 700px;
+	width: 1200px;
+}
+
+.mission {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+}
